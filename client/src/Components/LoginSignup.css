@@ -1,0 +1,122 @@
+.form-handler1 {
+    width: 50%;
+    max-width: 24rem;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 3rem auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.form-control1 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control1 input,
+  .form-control1 label {
+    display: block;
+  }
+  
+  .form-control1 label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control1 input,
+  .form-control1 select {
+    font: inherit;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .form-control1 input:focus {
+    outline: none;
+    border-color: #240370;
+    background-color: #e0d4fd;
+  }
+  
+  .control-group1 {
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .control-group1 .form-control1 {
+    min-width: 15rem;
+    flex: 1;
+  }
+  
+  button {
+    font: inherit;
+    background-color:  #6696f5;
+    color: white;
+    border: 1px solid  #6696f5;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-actions1 {
+    text-align: center;
+  }
+  
+  .form-actions1 button {
+    margin-left: 1rem;
+  }
+
+  .form-actions2 {
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .button2 {
+    margin-left: 1rem;
+    text-decoration: none;
+    font: inherit;
+    background-color:  #6699FF;
+    color: white;
+    border: 1px solid  #6699FF;
+    padding: 0.5rem 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+.table {
+  border-collapse: collapse;
+  margin: 3% 20%;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.thead tr {
+  background-color: #6699FF;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 12px 15px;
+}
+
+.tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
